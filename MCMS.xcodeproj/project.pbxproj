@@ -21,6 +21,10 @@
 		2EAD810A192BD63500FEB4A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAD80EC192BD63500FEB4A0 /* UIKit.framework */; };
 		2EAD8112192BD63500FEB4A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD8110192BD63500FEB4A0 /* InfoPlist.strings */; };
 		2EAD8114192BD63500FEB4A0 /* MCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD8113192BD63500FEB4A0 /* MCMSTests.m */; };
+		2EAD811F192BD67000FEB4A0 /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD811E192BD67000FEB4A0 /* MagicalCreature.m */; };
+		2EAD8123192BDB1200FEB4A0 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAD8122192BDB1200FEB4A0 /* CheckMate.framework */; };
+		2EAD8126192BF06400FEB4A0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD8125192BF06400FEB4A0 /* DetailViewController.m */; };
+		2EAD812E192C0DF900FEB4A0 /* goblin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD812D192C0DF900FEB4A0 /* goblin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		2EAD810F192BD63500FEB4A0 /* MCMSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCMSTests-Info.plist"; sourceTree = "<group>"; };
 		2EAD8111192BD63500FEB4A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2EAD8113192BD63500FEB4A0 /* MCMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMSTests.m; sourceTree = "<group>"; };
+		2EAD811D192BD67000FEB4A0 /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
+		2EAD811E192BD67000FEB4A0 /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
+		2EAD8122192BDB1200FEB4A0 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../CheckMate.framework; sourceTree = "<group>"; };
+		2EAD8124192BF06400FEB4A0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2EAD8125192BF06400FEB4A0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2EAD812D192C0DF900FEB4A0 /* goblin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goblin.png; path = ../../../Desktop/mmPics/goblin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EAD8123192BDB1200FEB4A0 /* CheckMate.framework in Frameworks */,
 				2EAD80EB192BD63500FEB4A0 /* CoreGraphics.framework in Frameworks */,
 				2EAD80ED192BD63500FEB4A0 /* UIKit.framework in Frameworks */,
 				2EAD80E9192BD63500FEB4A0 /* Foundation.framework in Frameworks */,
@@ -101,6 +112,7 @@
 		2EAD80E7192BD63500FEB4A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2EAD8122192BDB1200FEB4A0 /* CheckMate.framework */,
 				2EAD80E8192BD63500FEB4A0 /* Foundation.framework */,
 				2EAD80EA192BD63500FEB4A0 /* CoreGraphics.framework */,
 				2EAD80EC192BD63500FEB4A0 /* UIKit.framework */,
@@ -117,7 +129,10 @@
 				2EAD80FA192BD63500FEB4A0 /* Main.storyboard */,
 				2EAD80FD192BD63500FEB4A0 /* ViewController.h */,
 				2EAD80FE192BD63500FEB4A0 /* ViewController.m */,
+				2EAD8124192BF06400FEB4A0 /* DetailViewController.h */,
+				2EAD8125192BF06400FEB4A0 /* DetailViewController.m */,
 				2EAD8100192BD63500FEB4A0 /* Images.xcassets */,
+				2EAD812D192C0DF900FEB4A0 /* goblin.png */,
 				2EAD80EF192BD63500FEB4A0 /* Supporting Files */,
 			);
 			path = MCMS;
@@ -126,6 +141,8 @@
 		2EAD80EF192BD63500FEB4A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2EAD811D192BD67000FEB4A0 /* MagicalCreature.h */,
+				2EAD811E192BD67000FEB4A0 /* MagicalCreature.m */,
 				2EAD80F0192BD63500FEB4A0 /* MCMS-Info.plist */,
 				2EAD80F1192BD63500FEB4A0 /* InfoPlist.strings */,
 				2EAD80F4192BD63500FEB4A0 /* main.m */,
@@ -231,6 +248,7 @@
 				2EAD8101192BD63500FEB4A0 /* Images.xcassets in Resources */,
 				2EAD80F3192BD63500FEB4A0 /* InfoPlist.strings in Resources */,
 				2EAD80FC192BD63500FEB4A0 /* Main.storyboard in Resources */,
+				2EAD812E192C0DF900FEB4A0 /* goblin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EAD8126192BF06400FEB4A0 /* DetailViewController.m in Sources */,
 				2EAD80FF192BD63500FEB4A0 /* ViewController.m in Sources */,
+				2EAD811F192BD67000FEB4A0 /* MagicalCreature.m in Sources */,
 				2EAD80F9192BD63500FEB4A0 /* AppDelegate.m in Sources */,
 				2EAD80F5192BD63500FEB4A0 /* main.m in Sources */,
 			);
@@ -376,6 +396,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kristen.fisher/Development,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCMS/MCMS-Prefix.pch";
 				INFOPLIST_FILE = "MCMS/MCMS-Info.plist";
@@ -389,6 +413,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kristen.fisher/Development,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCMS/MCMS-Prefix.pch";
 				INFOPLIST_FILE = "MCMS/MCMS-Info.plist";
